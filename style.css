@@ -11,8 +11,6 @@ body {
     width: Window.width;
 }
 
-
-
 #form {
     width:32%;
     margin: auto;
@@ -21,6 +19,7 @@ body {
     min-width: 250px;
     padding: 10px
 }
+
 #input {
     text-align:center;
     font-size:1.25em;
@@ -38,7 +37,7 @@ label {
 button {
     text-align:center;
     margin: 10px auto;
-    width: 40;
+    width: 120px;
     min-width:30px;
     padding: 5%;
     color: #fff;
@@ -53,23 +52,39 @@ button:hover{
     margin: auto;
     width: 250px;
 }
+
 #bottomButtons button {
     width:40%;
     margin:5%;
     float: left;
-    
+}
+#message{
+    text-align:center;
+    font-size:1.25em;
+    margin: 10px auto;
+    width: 95%;
+    color: #fff;
+    display: none;
 }
 
 #submitBtn {
+    text-align:center;
     position: relative;
     left: 50%;
-    -webkit-transform: translate(-50%);
-    -moz-transform: translate(-50%);
-    -o-transform:translate(-50%);
-    transform: translate(-50%);
+    margin-left:-60px;
 }
 
 #bottomButtons label{
     position: relative;
     left: 35px;
 }
+
+#handImg {
+    margin-top:40px;
+    margin-left: -150px;
+    position:relative;
+    left: 50%;
+    width:300px;
+}
+
+
