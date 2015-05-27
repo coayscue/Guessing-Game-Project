@@ -69,7 +69,7 @@ $(document).ready(function(){
             }
         }
         console.log(correctNum);
-        document.getElementById("hint").innerHTML = divisors;
+        document.getElementById("hint").innerHTML = "Answer = ".concat(correctNum);
     });
 
 //sets up a new game
