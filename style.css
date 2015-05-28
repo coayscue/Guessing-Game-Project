@@ -12,6 +12,7 @@ body {
 }
 
 #form {
+    text-align: center;
     width:32%;
     margin: auto;
     background: #0099cc;
@@ -24,8 +25,9 @@ body {
     text-align:center;
     font-size:1.25em;
     margin: auto;
-    width: 95%;
+    width: 80%;
     height: 50px;
+    border-radius: 7px;
 }
 
 label {
@@ -48,7 +50,12 @@ button:hover{
     background-color: #999;
 }
 
+.btn {
+    border-radius = 5px;
+}
+
 #bottomButtons {
+    text-align: center;
     margin: auto;
     width: 250px;
 }
@@ -58,8 +65,10 @@ button:hover{
     margin:5%;
     float: left;
 }
+
 #message{
-    text-align:center;
+    padding-box: 20px;
+    text-align: center;
     font-size:1.25em;
     margin: 10px auto;
     width: 95%;
@@ -70,21 +79,25 @@ button:hover{
 #submitBtn {
     text-align:center;
     position: relative;
-    left: 50%;
-    margin-left:-60px;
 }
 
-#bottomButtons label{
+#hint{
+    text-align: center;
     position: relative;
-    left: 35px;
+}
+
+.btn: focus{
+    border-color: clear;
 }
 
 #handImg {
+/*    display: none;*/
     margin-top:40px;
     margin-left: -150px;
     position:relative;
     left: 50%;
     width:300px;
 }
+
 
 
